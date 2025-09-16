@@ -3,7 +3,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_jwt_extended import create_access_token
 from datetime import timedelta
 
-# si tu módulo principal no se llama app.py, cambia 'app' por 'application' o 'main'
+# 👇 si tu módulo principal NO se llama app.py, cambia 'app' por 'application' o 'main'
 from app import db
 from models import User
 
